@@ -348,14 +348,26 @@ section {
   border-top-right-radius: 5%;
   border-top-left-radius: 5%;
 }
-.g {
+
+.g1 {
+  float: left;
   display: grid;
   grid-template-areas:
-    "item1 item1 item1 item6 item6 "
-    "item2 item3 item3 item7 item7 "
-    "item4 item5 item5 item7 item7 ";
-  gap: 10px 140px;
-  width: 100%;
+    "item1 item1 item1 item0"
+    "item2 item3 item3 item0"
+    "item4 item5 item5 item0";
+  gap: 10px 181px;
+  width: 50%;
+  margin-bottom: 10%;
+}
+
+.g2 {
+  display: grid;
+  grid-template-areas:
+    "item6"
+    "item7";
+  gap: 10px 100px;
+  width: 50%;
   margin-top: 10%;
   margin-bottom: 10%;
 }
@@ -363,24 +375,37 @@ section {
   grid-area: item1;
   background-color: rgb(238, 238, 238);
   padding-left: 10px;
+  font-weight: bold;
+  font-size: 190%;
+  padding: 1% 1% 1% 3%;
 }
 .item2 {
   grid-area: item2;
-  height: 10px;
+  height: 100px;
 }
 .item3 {
   grid-area: item3;
+  font-weight: bold;
+  font-size: 112%;
+  color: rgb(88, 86, 84);
 }
+
 .item4 {
   grid-area: item4;
 }
 .item5 {
   grid-area: item5;
+  font-weight: bold;
+  font-size: 112%;
+  color: rgb(88, 86, 84);
 }
 .item6 {
   grid-area: item6;
   background-color: rgb(238, 238, 238);
   padding-left: 10px;
+  font-weight: bold;
+  font-size: 190%;
+  padding: 1% 1% 1% 3%;
 }
 .item7 {
   grid-area: item7;
