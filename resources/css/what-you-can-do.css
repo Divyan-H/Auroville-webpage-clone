@@ -1,0 +1,325 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+#nav-logo {
+  float: left;
+  height: fit-content;
+  width: 13%;
+  padding-top: 16px;
+  padding-left: 9%;
+  padding-right: 3%;
+}
+.navbar {
+  background-color: rgb(154, 84, 63);
+  display: flex;
+  gap: 9%;
+  border-bottom: 4px solid rgb(255, 123, 0);
+}
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.dropdown {
+  float: left;
+  display: inline;
+  font-weight: bold;
+}
+.dropdown .dropbtn {
+  font-size: 14px;
+  border: none;
+  padding: 32px 20px;
+  background-color: inherit;
+  font-weight: bold;
+  color: rgb(254, 228, 186);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.dropdown .dropbtnimg {
+  border: none;
+  padding: 20% 0% 12% 0%;
+  background-color: inherit;
+  width: 83%;
+}
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(255, 153, 0);
+}
+.navbar a:hover,
+.dropdown:hover .dropbtnimg {
+  background-color: rgb(255, 153, 0);
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(255, 153, 0);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: rgb(226, 222, 222);
+  padding: 12px 36px 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  color: #ffffff;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#lang_dropdown {
+  width: 220px;
+}
+#lang_dropdown_a {
+  width: 100px;
+  float: left;
+}
+#lang_dropdown_b {
+  width: 100px;
+  float: right;
+}
+#search-logo {
+  height: fit-content;
+  padding-top: 1.5%;
+}
+#nav_border {
+  border: 2px solid rgb(255, 123, 0);
+  margin: auto;
+}
+#jumbotron {
+  width: 83%;
+  margin-left: 9%;
+}
+#description {
+  padding: 5% 24% 5% 18%;
+  color: rgb(182, 83, 11);
+  font-size: 151%;
+}
+#the-mother {
+  text-align: right;
+}
+#vision {
+  text-align: center;
+  font-size: 360%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  color: rgb(22, 31, 47);
+}
+#vision-text {
+  padding: 0% 24%;
+  text-align: center;
+  font-size: 112%;
+  color: rgb(79 80 90);
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 7% 9% 2% 8%;
+  width: 84%;
+}
+.card {
+  text-align: center;
+}
+.container {
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 6% 5%;
+  font-size: 112%;
+  color: rgb(115 116 145);
+}
+#explore-auroville {
+  border-radius: 50%;
+  width: 64%;
+  height: 14em;
+}
+#partner-with-auroville {
+  border-radius: 50%;
+  width: 59%;
+  height: 14em;
+}
+#support-auroville {
+  border-radius: 50%;
+  width: 69%;
+  height: 14em;
+}
+#overview {
+  text-align: center;
+  font-size: 235%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(55, 65, 81);
+}
+#overview-content {
+  text-align: center;
+  margin: 1% 20% 7% 20%;
+  background-color: rgb(255, 247, 237);
+  padding: 2% 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.flex1 {
+  padding-bottom: 9px;
+  gap: 8% 8%;
+}
+.flex2 {
+  gap: 8% 8%;
+}
+#overview-content div {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 172%;
+  color: rgb(245, 158, 12);
+  width: 100%;
+}
+#overview-content p {
+  font-size: 16px;
+  color: rgb(107, 115, 129);
+  margin-top: -13px;
+}
+#seven {
+  text-align: center;
+  font-size: 230%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(55, 65, 81);
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 4% 3%;
+  margin: 1% 11% 10% 11%;
+}
+.grid-2 a {
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgb(155 162 173 / 85%);
+  font-weight: bold;
+}
+.grid-2 span {
+  color: rgb(22, 30, 53);
+  margin: 3px;
+  font-size: 107%;
+}
+.container-2 p {
+  margin-top: 0px;
+  font-size: 110%;
+  font-weight: 500;
+}
+.grid-2 img {
+  border-radius: 10px;
+}
+#visit-and-stay {
+  width: 100%;
+  height: 13em;
+}
+#volunteer-intern-or-study {
+  width: 100%;
+  height: 13em;
+}
+#Attend-workshop {
+  width: 100%;
+  height: 13em;
+}
+#join-auroville {
+  width: 100%;
+  height: 13em;
+}
+#shop {
+  width: 100%;
+  height: 13em;
+}
+#donate {
+  width: 100%;
+  height: 13em;
+}
+#contact-us {
+  width: 100%;
+  height: 13em;
+}
+#silhouette {
+  margin-bottom: -7px;
+}
+#footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  color: rgb(211, 192, 192);
+  background-color: rgb(0, 0, 0);
+  padding-left: 3%;
+  padding-bottom: 3%;
+  line-height: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#footer span {
+  font-size: 15px;
+  font-weight: bold;
+}
+#footer a {
+  color: rgb(160, 153, 153);
+  text-decoration: none;
+  line-height: 12px;
+}
+#footer a:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+#column-2 {
+  padding-left: 10%;
+}
+#column-3 {
+  padding-left: 10%;
+}
+#column-4 {
+  padding-left: 4%;
+}
+#bottom_line {
+  border-bottom: 1px solid rgba(51, 26, 26, 0.25);
+}
+#inline {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 42%;
+}
+#sign-in {
+  text-align: left;
+  text-decoration: none;
+}
+#bottom {
+  border-top: 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(160, 153, 153);
+  background-color: rgb(0, 0, 0);
+  padding-right: 3%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#bottom a {
+  text-decoration: none;
+  color: rgb(160, 153, 153);
+}
+#bottom a:hover {
+  color: rgb(255, 255, 255);
+}
+/*end*/
