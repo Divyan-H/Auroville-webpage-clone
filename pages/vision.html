@@ -9,13 +9,14 @@
       rel="icon"
       href="https://auroville.org/images/av_favi_icon-bb57269cdce6407f4a931a9065e58035.png?vsn=d"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <!--Navigation Bar Starts-->
     <nav>
       <div class="navbar nav_border">
         <img id="nav-logo" src="/resources/images/nav-logo.png" alt="Auroville logo" />
-        <div>
+        <div id="a">
           <div class="dropdown">
             <button class="dropbtn">Vision</button>
             <div class="dropdown-content">
@@ -95,6 +96,19 @@
         </div>
       </div>
       <img id="search-logo" src="/resources/images/search-icon.png" alt="search-logo">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <script>
+          function myFunction() {
+            var x = document.getElementById("a");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+       </script>
     </nav>
     <!--Navigation Bar Ends-->
     <img src="https://files.auroville.org/auroville-org/cd2883ee-eef9-4094-8ba2-29f5da05b0c1.jpg" 
