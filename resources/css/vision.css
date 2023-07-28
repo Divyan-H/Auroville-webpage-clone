@@ -2,6 +2,28 @@ body {
   margin: 0;
   line-height: 1.5;
 }
+.navbar a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#a {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+#a a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.navbar #a {
+  display: none;
+}
 #nav-logo {
   float: left;
   height: fit-content;
@@ -298,5 +320,82 @@ body {
 }
 #bottom a:hover {
   color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 400px) {
+  #nav-logo {
+    width: 36%;
+    padding: 4%;
+  }
+  #search-logo {
+    padding-left: 10%;
+    padding-top: 3.5%;
+  }
+  #jumbotron {
+    width: 100%;
+    margin: 0;
+  }
+  #description {
+    padding: 6%;
+    font-size: 165%;
+  }
+  #vision-text {
+    padding: 1%;
+  }
+  .grid {
+    display: block;
+  }
+  #birthing-a-new-world {
+    height: 10em;
+  }
+  #the-city-of-dawn {
+    height: 10em;
+    width: 50%;
+  }
+  #integral-yoga {
+    height: 10em;
+  }
+  .container {
+    font-size: 90%;
+  }
+  .flex {
+    display: block;
+  }
+  #overview-content {
+    height: 100%;
+    margin: 1% 4% 8% 4%;
+  }
+  .grid-2 {
+    display: block;
+    margin: 4% 4% 8% 4%;
+  }
+  #explore {
+    font-size: 180%;
+    margin-bottom: 2%;
+    padding: 5%;
+  }
+  #footer {
+    display: block;
+  }
+  #column-1 {
+    padding: 10px 10px 10px 30px;
+  }
+  #column-2 {
+    padding: 10px 10px 10px 30px;
+  }
+  #column-3 {
+    padding: 10px 10px 10px 30px;
+  }
+  #column-4 {
+    padding: 10px 10px 10px 30px;
+  }
+  #inline {
+    padding-left: 20%;
+  }
+  #sign-in {
+    padding-left: 30px;
+  }
+  .navbar a.icon {
+    display: block;
+  }
 }
 /*end*/

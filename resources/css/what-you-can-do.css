@@ -322,4 +322,106 @@ body {
 #bottom a:hover {
   color: rgb(255, 255, 255);
 }
+@media screen and (max-width: 400px) {
+  .dropdown {
+    display: none;
+  }
+  #nav-logo {
+    width: 36%;
+    padding: 4%;
+  }
+  #search-logo {
+    padding-left: 10%;
+    padding-top: 3.5%;
+  }
+  #jumbotron {
+    width: 100%;
+    margin: 0;
+  }
+  #description {
+    padding: 6%;
+    margin-bottom: 4%;
+    font-size: 145%;
+  }
+  #vision-text {
+    padding: 0%;
+    font-size: 110%;
+  }
+  .grid {
+    display: block;
+    margin: 7% 2% 2% 2%;
+  }
+  #explore-auroville {
+    height: 10em;
+    width: 53%;
+  }
+  #partner-with-auroville {
+    width: 53%;
+    height: 10em;
+  }
+  #support-auroville {
+    width: 53%;
+    height: 10em;
+  }
+  .container {
+    font-size: 110%;
+    margin-bottom: 10%;
+  }
+  #overview-content {
+    margin: 1% 5% 7% 5%;
+  }
+  .flex {
+    display: block;
+  }
+  .grid-2 {
+    display: block;
+    margin: 1% 4% 10% 4%;
+  }
+  #visit-and-stay {
+    height: 16em;
+  }
+  #volunteer-intern-or-study {
+    height: 16em;
+  }
+  #Attend-workshop {
+    height: 16em;
+  }
+  #join-auroville {
+    height: 16em;
+  }
+  #shop {
+    height: 16em;
+  }
+  #donate {
+    height: 16em;
+  }
+  #contact-us {
+    height: 16em;
+  }
+  #silhouette {
+    width: 100%;
+    margin-bottom: -8px;
+  }
+  #footer {
+    display: block;
+  }
+  #column-1 {
+    padding: 10px 10px 10px 30px;
+  }
+  #column-2 {
+    padding: 10px 10px 10px 30px;
+  }
+  #column-3 {
+    padding: 10px 10px 10px 30px;
+  }
+  #column-4 {
+    padding: 10px 10px 10px 30px;
+  }
+  #inline {
+    padding-left: 20%;
+  }
+  #sign-in {
+    padding-left: 30px;
+  }
+}
 /*end*/
